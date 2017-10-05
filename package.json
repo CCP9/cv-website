@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "livereload": "^0.6.2",
+    "node-livereload": "^0.6.0"
+  }
+}

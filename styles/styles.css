@@ -1,0 +1,72 @@
+/*.main {
+  width: 900px;
+  background-color: white;
+}*/
+
+body{ 
+	background-color: #F2F3F4;
+	margin-top: 50px; 
+}
+
+.no-margin {
+  margin-bottom: 0;
+}
+
+.page-2 {
+	display: none;
+}
+
+.image-size {
+	display: inline-block;
+	max-height: 300px;
+	position: relative;
+	transition: all .2s ease-in-out;
+}
+
+.image-size:hover {
+	transform: scale(1.5);
+	z-index: 999;
+}
+
+.image-size{
+	margin-bottom: 20px;
+}
+
+.customtron {
+	background: rgb(0, 120, 215);
+	background: rgba(0, 120, 215, 0.5);
+	/*background-opacity: 0.50;*/
+	color: white;
+}
+
+.custombar {
+	background-color: #2980B9  ;
+	border: none;
+}
+
+.cs-nav-link a{
+	color: white !important; 
+}
+
+ul li :focus {
+	background-color: grey !important;
+	color: grey;
+}
+
+ul li .active {
+	background-color: grey !important;
+	color: grey;
+}
+
+
+.customer-well {
+	background-color: #D4E6F1  ;
+}
+
+.custom-header {
+	text-align: center;
+	color: white;
+	font-size: 70px;
+	margin-bottom: 40px;
+	margin-left: 90px;
+}
